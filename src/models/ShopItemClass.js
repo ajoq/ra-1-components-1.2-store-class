@@ -2,10 +2,6 @@ import React from "react";
 import PropTypes from 'prop-types';
 
 class ShopItemClass extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   static propTypes = {
     item: PropTypes.object.isRequired
   }
